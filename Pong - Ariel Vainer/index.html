@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong - Ariel Vainer</title>
+    <style>
+        body{
+            background-color: dimgray;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+        @font-face {
+            font-family: 'AngryBird';
+            src: url('fonts/f.ttf');
+        }
+    </style>
+</head>
+<body>
+<canvas id="pong" width="1200" height="800"></canvas>
+
+<!--running all the files in order-->
+<script src="Functions.js"></script>
+<script src="Ball.js"></script>
+<script src="Paddle.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
